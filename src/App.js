@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom"
-
+import 'semantic-ui-css/semantic.min.css'
 //components
 import Navigation from './components/Navigation'
 
@@ -15,19 +15,19 @@ import Smoothies from "./pages/Smoothies"
 
 function App() {
   return (
-      <Router>
+    <Router>
       <Navigation />
-        <Switch>
-          <Route path="/smoothies">
-            <Smoothies />
-          </Route>
-          <Route path="/new-smoothie">
-            <NewSmoothie />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+      <Switch>
+        <Route path="/smoothies">
+          <Smoothies />
+        </Route>
+        <Route path="/new-smoothie">
+          <NewSmoothie />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
     </Router>
   );
 }
