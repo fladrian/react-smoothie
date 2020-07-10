@@ -1,0 +1,12 @@
+input, select, .p-input{
+	border-radius: 5px;
+	border: 1px solid green;
+	display: inline-block;
+	height: 36px;
+	width: 100% !important;
+	background-color: ghostwhite !important;
+	color: mediumvioletred !important;
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
